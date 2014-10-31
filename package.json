@@ -1,0 +1,24 @@
+{
+  "name": "identityStream",
+  "version": "1.0.0",
+  "description": "simple stream module that you can pass data through without modifying it",
+  "main": "identityStream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GMTurbo/IdentityStream.git"
+  },
+  "keywords": [
+    "passthrough",
+    "identity",
+    "streams"
+  ],
+  "author": "gmturbo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GMTurbo/IdentityStream/issues"
+  },
+  "homepage": "https://github.com/GMTurbo/IdentityStream"
+}
