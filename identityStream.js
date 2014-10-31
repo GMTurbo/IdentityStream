@@ -5,6 +5,7 @@ function IdentityStream() {
   this.writable = true;
   this.readable = true;
 }
+
 util.inherits(PassthroughStream, Stream);
 
 IdentityStream.prototype.write = function(data) {
