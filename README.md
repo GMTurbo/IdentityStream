@@ -12,9 +12,9 @@ Sometimes you need a default stream placeholder that doesn't modify anything
 
 ## It is easy to use
 ``` js
-var identity = new identityStream();
+var doSomethingStream = IsThereSomethingToDo() || new identityStream();
 fs.createReadStream('file.txt')
-  .pipe(identity)
+  .pipe(doSomethingStream)
   .pipe(fs.createWriteStream('file-copy.txt');
 ```
 ## License
