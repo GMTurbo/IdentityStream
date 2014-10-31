@@ -1,5 +1,5 @@
 {
-  "name": "identityStream",
+  "name": "identity-stream",
   "version": "1.0.0",
   "description": "simple stream module that you can pass data through without modifying it",
   "main": "identityStream.js",
